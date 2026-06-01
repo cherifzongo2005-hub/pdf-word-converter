@@ -1,0 +1,33 @@
+{
+  "name": "pdf-word-converter",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "next": "14.2.3",
+    "react": "^18",
+    "react-dom": "^18",
+    "mammoth": "^1.7.2",
+    "pdf-lib": "^1.17.1",
+    "jspdf": "^2.5.1",
+    "html2canvas": "^1.4.1",
+    "docx": "^8.5.0",
+    "pdfjs-dist": "^4.3.136",
+    "file-saver": "^2.0.5",
+    "react-dropzone": "^14.2.3"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "@types/file-saver": "^2.0.7",
+    "typescript": "^5",
+    "eslint": "^8",
+    "eslint-config-next": "14.2.3"
+  }
+}
